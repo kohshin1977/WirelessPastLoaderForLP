@@ -23,3 +23,8 @@
 
 [Assistant] フランス語LPを新規作成しました。ルートに `fr.html`、公開用に `github-pages-public/fr.html` を追加し、`lp_1_fr.png` から `lp_4_fr.png` を参照するようにしました。あわせて日本語・英語・ドイツ語ページのヘッダーに `FR` リンクを追加し、公開用のフランス語画像も `github-pages-public/images/` にコピー済みです。
 
+
+[User] imagesにスペイン語の画像をアップしました。スペイン語のLPを作成してください
+
+[Assistant] スペイン語LPを新規作成しました。ルートに `es.html`、公開用に `github-pages-public/es.html` を追加し、`lp_1_es.png` から `lp_4_es.png` を参照するようにしました。あわせて日本語・英語・ドイツ語・フランス語ページのヘッダーに `ES` リンクを追加し、公開用のスペイン語画像も `github-pages-public/images/` にコピー済みです。
+
