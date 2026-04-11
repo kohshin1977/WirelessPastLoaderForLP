@@ -1,0 +1,10 @@
+
+[User] 英語に対応したいです。英語用の画像はすでにできています。どこに置けばいいですか
+
+[Assistant] 英語版のLP画像は `images/` に置くのが正しいです。現在 `index.html` と `github-pages-public/index.html` は `./images/lp_1_ja.png` のように参照しているので、英語版は同じ場所に `lp_1_en.png` などの名前で追加する形になります。ストアバッジ類は `assets/` なので、英語用の画面キャプチャや説明画像は `assets` ではなく `images` です。なお、このリポジトリはルート直下にも公開用ファイル一式があり、`github-pages-public/images/` にも同じ画像群があります。運用を揃えるなら、英語画像は `images/` と `github-pages-public/images/` の両方に置いてください。参照箇所は `index.html:72`, `index.html:75`, `index.html:160`, `index.html:164` です。必要なら次に、英語切り替え用のHTML差し替えまでそのまま入れます。
+
+
+[User] imagesに英語の画像をアップしました。英語のLPを作成してください
+
+[Assistant] 英語LPを新規作成しました。ルートに `en.html`、公開用に `github-pages-public/en.html` を追加し、どちらも `lp_1_en.png` から `lp_4_en.png` を参照するようにしました。あわせて日本語ページの `index.html` と `github-pages-public/index.html` のヘッダーに `EN` リンクを追加しました。公開用の英語画像は `github-pages-public/images/` にもコピー済みで、参照切れがないことを確認しました。
+
