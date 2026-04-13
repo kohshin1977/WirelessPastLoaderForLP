@@ -1,0 +1,6 @@
+
+[User] スマホで見た時、android、iosのバナーが縦に並んでしまいます。横に並ぶようにしたいです。
+
+[Assistant] スマホ表示時のバナー配置を確認して、該当するHTML/CSSを特定します。途中経過と完了時はVOICEVOXのID3で読み上げ、あわせて会話ログも prompt_logs/prompt_20260413.txt に追記します。
+
+[Assistant] styles.css と github-pages-public/styles.css のモバイル向けメディアクエリに、store-badges-hero を横並び固定にするルールを追加。flex-wrap を nowrap にし、各バナーを flex: 1 1 0; min-width: 0; にして画像幅を 100% 化。

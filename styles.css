@@ -578,4 +578,18 @@ a {
   .section-alt {
     padding: 56px 20px;
   }
+
+  .store-badges-hero {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .store-badges-hero .store-badge {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .store-badges-hero .store-badge img {
+    width: 100%;
+  }
 }
