@@ -10,3 +10,10 @@
 [Assistant] 認識を修正します。lp_4の文字列ではなく、lp_4の画像を特徴セクションの前に出す形に直します。
 
 [Assistant] `lp_4_ja.png` を特徴セクションの直前に移動し、画面セクションからは外しました。あわせて見出しは `特徴` に戻し、1枚で大きく表示できるよう `.gallery-grid-single` を追加しました。
+
+[User] app storeで公開されました。iOSのバッジのリンクを全言語で下記にしてください。
+https://apps.apple.com/us/app/wireless-delay-cam/id6761116286
+
+[Assistant] App Store の公開リンク差し替えですね。全言語HTMLで iOS バッジのリンク先を指定URLへ統一し、公開用ファイルも含めて更新します。
+
+[Assistant] 全言語HTMLのiOSバッジリンクを `https://apps.apple.com/us/app/wireless-delay-cam/id6761116286` に統一しました。ルート配下と `github-pages-public` 配下の両方を更新し、旧プレースホルダーURLが残っていないことを確認しました。
