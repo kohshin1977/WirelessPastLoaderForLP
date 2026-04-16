@@ -1,0 +1,19 @@
+
+[User] 離れた場所の映像を、
+Wi-Fiやテザリングで遅延つき表示。
+を
+2台のスマホで遅延再生
+に修正してください。
+他の言語に翻訳して同じように変えてください。
+
+[Assistant] 対象の文言と翻訳ファイルを確認し、各言語HTMLと github-pages-public 側の見出しを「2台のスマホで遅延再生」に相当する表現へ統一して更新しました。
+
+[Assistant] 見出し文言を日本語・各翻訳ページ・github-pages-public 側で更新し、反映を確認しました。
+
+[User] 2台のスマホで、の、は必要ありません
+
+[Assistant] 日本語見出しの読点を削除し、index.html と github-pages-public/index.html を更新しました。
+
+[User] 2台のスマホで遅延再生。の。も必要ありません
+
+[Assistant] 日本語見出し末尾の句点を削除し、index.html と github-pages-public/index.html を更新しました。
